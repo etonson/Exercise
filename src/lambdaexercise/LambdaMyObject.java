@@ -48,7 +48,7 @@ public class LambdaMyObject {
 		System.out.println("--------------------------------");
 		for (int i = p.length - 1, k = 1; i >= 0; i--, k++) {
 			p[i].show();
-			System.out.println(k);
+			System.out.print(k);
 		}
 	}
 }
